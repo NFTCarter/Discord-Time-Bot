@@ -1,0 +1,21 @@
+{
+  "name": "sales-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --no-warnings --experimental-specifier-resolution=node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "latest",
+    "fs": "latest",
+    "node-fetch": "latest",
+    "path": "latest",
+    "quick.db": "latest"
+  }
+}
